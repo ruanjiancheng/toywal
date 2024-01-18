@@ -1,3 +1,7 @@
+## WAL
+
+[![Go Reference](https://pkg.go.dev/badge/github.com/ruanjiancheng/toywal.svg)](https://pkg.go.dev/github.com/ruanjiancheng/toywal)
+
 wal 机制是一种用于持久化操作保证数据可靠性的机制。当数据保存在内存中的时候，需要使用 wal 机制来保证数据可靠性。
 
 由于 wal 通过 append-only 顺序写入来持久化操作，使得 wal 具有较高写入性能。
